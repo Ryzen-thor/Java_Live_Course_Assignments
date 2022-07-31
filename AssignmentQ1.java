@@ -77,18 +77,18 @@ class IneuronPattern{
 	}
 }
 
-class NumberPattern{
-	int row = 5;
+// class NumberPattern{
+// 	int row = 5;
 	
-	void showPattern() {
-		for(int i =1;i<row;i++) {
-			for(int j=0;j<row;j++) {
-				System.out.print(i);
-			}
-			System.out.println();
-			}
-	}
-}
+// 	void showPattern() {
+// 		for(int i =1;i<row;i++) {
+// 			for(int j=0;j<row;j++) {
+// 				System.out.print(i);
+// 			}
+// 			System.out.println();
+// 			}
+// 	}
+// }
 
 public class AssignmentQ1 {
 
@@ -98,8 +98,8 @@ public class AssignmentQ1 {
 		IneuronPattern pattern = new IneuronPattern();
 		pattern.printPattern();
 		
-		NumberPattern numberPattern = new NumberPattern();
-		numberPattern.showPattern();
+// 		NumberPattern numberPattern = new NumberPattern();
+// 		numberPattern.showPattern();
 	}
 
 }
